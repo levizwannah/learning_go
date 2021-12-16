@@ -4,6 +4,7 @@ import "fmt"
 
 //channels are a typed pipe through which you can send and receive values
 //with the channel operator <-
+//buffered channels ch := make(chan int, 2)
 
 //sum dividing the work between two go routines
 func sum(s []int, c chan int) {
